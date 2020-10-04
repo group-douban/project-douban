@@ -9,7 +9,8 @@ Vue.config.productionTip = false
 //导入全局样式
 import './assets/reset.css'
 
-new Vue({
+new Vue({ 
+  // 把下面挂载到vue实例上
   router,
   store,
   render: h => h(App)

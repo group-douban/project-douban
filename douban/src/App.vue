@@ -1,18 +1,23 @@
 <template>
-    <div>
-        <ul>
-            <router-link tag="li" to="/home">首页</router-link>
-            <router-link tag="li" to="/cinemaHit">影院热映</router-link>
-            <router-link tag="li" to="/movieList">榜单</router-link>
-        </ul>
-        <router-view></router-view>
+    <div class="container">
+       <!--  <movie-list></movie-list> -->
+       <!--  <movie-top250></movie-top250> -->
+       <!-- <movie-top250-details></movie-top250-details> -->
+       
+       <!-- 这是插座 -->
+       <router-view></router-view>
     </div>
 </template>
 
 <script>
 
+
+export default{
+  
+}
 </script>
 
 <style lang="stylus">
-
+.container    
+    height 100%
 </style>
